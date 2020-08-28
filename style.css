@@ -73,3 +73,20 @@ html {
 .team__card__link:hover {
   background-color: #919acf;
 }
+
+@media (min-width: 700px) {
+  .content {
+    width: 100%;
+  }
+  
+  .team__card {
+    min-width: 18rem;
+    max-width: 20rem;
+  }
+
+  .team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}
