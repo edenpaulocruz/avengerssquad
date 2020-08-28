@@ -26,7 +26,7 @@ html {
 
 .header {
   background-color: #18273d;
-  width: 100vw;
+  width: 100%;
   padding: .75rem;
   text-align: center;
 }
@@ -74,6 +74,21 @@ html {
   background-color: #919acf;
 }
 
+.footer {
+  width: 100%;
+  background-color: #18273d;
+  color: #fff;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 1.75rem 0 1rem;
+}
+
+.footer__link__gama {
+  margin: 1.75rem 0 1rem;
+
+}
+
 @media (min-width: 700px) {
   .content {
     width: 100%;
@@ -89,4 +104,9 @@ html {
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
+
+  .footer {
+    flex-flow: row;
+    justify-content: space-evenly;
+  }  
 }
